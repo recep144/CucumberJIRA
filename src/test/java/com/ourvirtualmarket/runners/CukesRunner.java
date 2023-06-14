@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/ourvirtualmarket/step_defs",
         dryRun = false,
-        tags = "@jira"
+        tags = "@addToCart_2"
 )
 public class CukesRunner {
 }
