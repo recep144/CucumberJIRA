@@ -70,11 +70,9 @@ public class ShoppingCartPage extends BasePage {
             }
         }
     }
-
     private WebElement deleteButtonOnTheShoppingCartPage(int row, int column) {
         return Driver.get().findElement(By.xpath("" +
                 "(//table[@class='table table-bordered']/tbody)[1]/tr[" + row + "]/td[" + column + "]//button[2]/i"));
     }
-
 
 }
